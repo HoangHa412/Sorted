@@ -2,7 +2,7 @@ public class Array {
     public static void bublleSort(int n, int a[]){
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
-                if(a[i]>a[j]){
+                if(a[i]>a[i]){
                     int temp=a[i];
                     a[i]=a[j];
                     a[j]=temp;
